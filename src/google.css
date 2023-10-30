@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+.loginbtn{
+
+    appearance: button;
+    backface-visibility: hidden;
+    background-color:#6D9886;
+    border-radius: 40px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .3) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: white; 
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-size:small;
+    height: 44px;
+    line-height: 1.15;
+    margin: 12px 0 0;
+    outline: none;
+    overflow: hidden;
+    padding: 0 25px;
+    padding: 10px 20px 10px 20px;
+    
+    text-align: center;
+    text-transform: none;
+    transform: translate(11vw,1.3vw);
+
+    transition: all .2s,box-shadow .08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 40%;
+    cursor: pointer;
+    display:flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    width: 40%;
+    color: white;
+    justify-content:center;
+    align-items:center; 
+}
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: lighter;
+}
+
+.profilename{
+    visibility: hidden;
+}
+Form{
+    visibility: hidden;
+}
